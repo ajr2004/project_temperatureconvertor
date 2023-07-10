@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+  <div class="header">
+    <h1>JanakiRam Temperature Converter</h1>
+  </div>
+  <div class="container">
+    <label for="celsius">Celsius:</label>
+    <input type="number" id="celsius" placeholder="Enter temperature in Celsius">
+    <button onclick="convertToFar()">Convert to Fahrenheit</button>
+    <button onclick="convertToKel()">Convert to Kelvin</button>
+    <button onclick="convertToRank()">Convert to Rankine</button>
+    <br>
+    <label for="fahrenheit">Fahrenheit:</label>
+    <input type="number" id="fahrenheit" placeholder="Enter temperature in Fahrenheit">
+    <button onclick="convertToCel()">Convert to Celsius</button>
+    <button onclick="convertToKelFar()">Convert to Kelvin</button>
+    <button onclick="convertToRankFar()">Convert to Rankine</button>
+    <br>
+    <label for="kelvin">Kelvin:</label>
+    <input type="number" id="kelvin" placeholder="Enter temperature in Kelvin">
+    <button onclick="convertToCelKel()">Convert to Celsius</button>
+    <button onclick="convertToFahKel()">Convert to Fahrenheit</button>
+    <button onclick="convertToRankKel()">Convert to Rankine</button>
+    <br>
+    <label for="rankine">Rankine:</label>
+    <input type="number" id="rankine" placeholder="Enter temperature in Rankine">
+    <button onclick="convertToCelRank()">Convert to Celsius</button>
+    <button onclick="convertToFahRank()">Convert to Fahrenheit</button>
+    <button onclick="convertToKelRank()">Convert to Kelvin</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
